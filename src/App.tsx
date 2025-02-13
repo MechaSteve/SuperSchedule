@@ -28,6 +28,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <p>
+        This web page will eventually let you control the schedule for multiple thermostats.
+      </p>
     </>
   )
 }
