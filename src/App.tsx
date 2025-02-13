@@ -7,14 +7,6 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Authenticator>
-      {({ signOut, user }) => (
-        <main>
-          <h1>Hello {user?.username}</h1>
-          <button onClick={signOut}>Sign out</button>
-          <Component {...pageProps} />
-        </main>
-      )}
       <>
         <div>
           <a href="https://vite.dev" target="_blank">
@@ -40,7 +32,6 @@ function App() {
           This web page will eventually let you control the schedule for multiple thermostats.
         </p>
       </>
-    </Authenticator>
   )
 }
 
