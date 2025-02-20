@@ -1,10 +1,10 @@
 body {
   margin: 0;
-  background: linear-gradient(180deg, rgb(117, 81, 194), rgb(255, 255, 255));
+  background: linear-gradient(180deg, rgb(54, 4, 66), rgb(57, 36, 177));
   display: flex;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   height: 100vh;
-  width: 100vw;
+  width: 150vw;
   justify-content: center;
   align-items: center;
 }
@@ -32,7 +32,7 @@ button:hover {
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 8px auto -webkit-focus-ring-color;
 }
 
 ul {
@@ -60,6 +60,6 @@ li:hover {
 }
 
 a {
-  font-weight: 800;
+  font-weight: bold;
   text-decoration: none;
 }
