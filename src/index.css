@@ -16,7 +16,7 @@ main {
 }
 
 button {
-  border-radius: 8px;
+  border-radius: 3px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -46,7 +46,7 @@ ul {
   border: 1px solid black;
   gap: 1px;
   background-color: black;
-  border-radius: 8px;
+  border-radius: 5px;
   overflow: auto;
 }
 
