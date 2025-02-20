@@ -13,4 +13,11 @@ export const auth = defineAuth({
         `Use this code to confirm your account: ${createCode()}`,
     },
   },
+
+  userAttributes: {
+    preferredUsername: {
+      mutable: true,
+      required: false
+    }
+  }
 });
