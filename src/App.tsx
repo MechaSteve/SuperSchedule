@@ -31,17 +31,10 @@ function App() {
 
   return (
     <div>
-      <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        padding: '1rem',
-        backgroundColor: '#f5f5f5',
-        borderBottom: '1px solid #ddd'
-      }}>
+      <nav>
         <span>Welcome, {username}</span>
         <button onClick={handleSignOut}>Sign Out</button>
-      </div>
+      </nav>
       <main>
         <h1>My todos</h1>
         <button onClick={createTodo}>+ new</button>
