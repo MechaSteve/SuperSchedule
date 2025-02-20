@@ -1,0 +1,95 @@
+/* auth.css */
+
+/* Customize the main button styling */
+.amplify-button[data-variation='primary'] {
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .amplify-button[data-variation='primary']:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Style the input fields */
+  .amplify-input {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    transition: border-color 0.3s ease;
+  }
+
+  .amplify-input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+
+  /* Style the form fields and labels */
+  .amplify-label {
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .amplify-field {
+    margin-bottom: 20px;
+  }
+
+  /* Style headings */
+  .amplify-heading {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  /* Style the tabs (Sign In/Sign Up) */
+  .amplify-tabs {
+    margin-bottom: 24px;
+  }
+
+  .amplify-tabs-item[data-state='active'] {
+    color: #4CAF50;
+    border-color: #4CAF50;
+  }
+
+  /* Style error messages */
+  .amplify-text--error {
+    color: #ff5252;
+    font-size: 0.875rem;
+    margin-top: 4px;
+  }
+
+  /* Style the password requirements text */
+  .amplify-passwordfield__requirements {
+    color: #666666;
+    font-size: 0.875rem;
+  }
+
+  /* Style the authenticator container */
+  .amplify-authenticator {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 40px auto;
+  }
+
+  /* Style the divider */
+  .amplify-divider {
+    border-color: #e0e0e0;
+    margin: 24px 0;
+  }
+
+  /* Style links */
+  .amplify-button[data-variation='link'] {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+  .amplify-button[data-variation='link']:hover {
+    text-decoration: underline;
+    background: none;
+  }
