@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import type { Schema } from "../amplify/data/resource";
 import { generateClient } from "aws-amplify/data";
-import { signOut, getCurrentUser } from "aws-amplify/auth"
+import { signOut, getCurrentUser, fetchUserAttributes } from "aws-amplify/auth";
 import './auth.css';
 
 const client = generateClient<Schema>();
@@ -16,8 +16,8 @@ function App() {
     });
 
     // Get current user's username
-    getCurrentUser().then(user => {
-      setUsername(user.username);
+    fetchUserAttributes().then(user => {
+      setUsername(user.preferred_username ?? "");
     });
   }, []);
 
